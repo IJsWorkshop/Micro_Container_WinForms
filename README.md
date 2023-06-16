@@ -9,8 +9,8 @@
 ```C#
 var Container = new MicroContainer();
 
-Container.RegisterSingleton(typeof(RandomGenerator));
-Container.RegisterTransient<NumberClass>();
+Container.RegisterSingleton(typeof(NumberClass));
+Container.RegisterTransient<RandomGenerator>();
 
 var tnc1 = Container.Get<RandomGenerator>();
 var tnc2 = Container.Get<RandomGenerator>();
