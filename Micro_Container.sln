@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroContainer", "micro_Container\MicroContainer.csproj", "{63A64326-7B73-491F-948C-F850F52A9562}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Developement_App", "Developement_App\Developement_App.csproj", "{F3DBEDB5-F5A5-4E1A-9C42-565F6150434C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63A64326-7B73-491F-948C-F850F52A9562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63A64326-7B73-491F-948C-F850F52A9562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63A64326-7B73-491F-948C-F850F52A9562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63A64326-7B73-491F-948C-F850F52A9562}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3DBEDB5-F5A5-4E1A-9C42-565F6150434C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3DBEDB5-F5A5-4E1A-9C42-565F6150434C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3DBEDB5-F5A5-4E1A-9C42-565F6150434C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3DBEDB5-F5A5-4E1A-9C42-565F6150434C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {079F9800-5424-42C3-9910-6C7E5F824F6B}
+	EndGlobalSection
+EndGlobal
