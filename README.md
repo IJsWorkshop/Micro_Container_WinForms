@@ -18,3 +18,9 @@ var tnc2 = Container.Get<RandomGenerator>();
 Debug.WriteLine("tnc1 Value " + tnc1.GetRandomGuid());
 Debug.WriteLine("tnc2 Value " + tnc2.GetRandomGuid());
 
+OUTPUT
+tnc1 Value a6bce543-3cb7-45d8-8b77-8696c8d0a1a3
+tnc2 Value f4f2d93e-f01a-41ca-9685-43e758d77bfb
+
+
+
