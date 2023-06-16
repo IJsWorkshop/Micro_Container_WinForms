@@ -10,11 +10,11 @@
 var Container = new MicroContainer();
 
 Container.RegisterSingleton(typeof(RandomGenerator));
-Container.RegisterTransient<INumberClass,NumberClass>();
+Container.RegisterTransient<NumberClass>();
 
 var tnc1 = Container.Get<RandomGenerator>();
 var tnc2 = Container.Get<RandomGenerator>();
 
-Debug.WriteLine("tnc Value " + tnc1.GetRandomGuid());
-Debug.WriteLine("tnc Value " + tnc2.GetRandomGuid());
+Debug.WriteLine("tnc1 Value " + tnc1.GetRandomGuid());
+Debug.WriteLine("tnc2 Value " + tnc2.GetRandomGuid());
 
